@@ -1,12 +1,10 @@
 # ========================================
 # Fichiers de compilation
 # ========================================
-*.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-calculette-comptable.exe
 
 # ========================================
 # Fichiers Go
