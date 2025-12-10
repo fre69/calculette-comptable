@@ -1,0 +1,72 @@
+# ========================================
+# Fichiers de compilation
+# ========================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+calculette-comptable.exe
+
+# ========================================
+# Fichiers Go
+# ========================================
+# Fichiers binaires
+*.test
+*.out
+*.prof
+
+# Fichiers de build
+/dist/
+/build/
+/bin/
+
+# ========================================
+# Dépendances Go
+# ========================================
+# go.mod et go.sum doivent être versionnés
+# Cache des modules (optionnel, généralement dans GOPATH/pkg)
+
+# ========================================
+# Fichiers de ressources Windows
+# ========================================
+*.syso
+rsrc_*.syso
+winres/*.syso
+
+# ========================================
+# Fichiers temporaires et IDE
+# ========================================
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.bak
+*.cache
+
+# ========================================
+# Fichiers de génération d'icônes
+# ========================================
+generate_icon.go
+*.ico
+winres/icon*.png
+
+# ========================================
+# Fichiers de test
+# ========================================
+coverage.txt
+coverage.html
+
+# ========================================
+# Autres
+# ========================================
+.env
+.env.local
+
