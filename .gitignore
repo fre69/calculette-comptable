@@ -36,7 +36,6 @@ winres/*.syso
 # Fichiers temporaires et IDE
 # ========================================
 # Éditeurs
-.vscode/
 .idea/
 *.swp
 *.swo
